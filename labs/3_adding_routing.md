@@ -1,4 +1,4 @@
-# Lab 4: Adding routing
+# Lab 3: Adding routing
 
 In this lab we'll add routing so that we can navigate from component to component seamlessly. Feel free to look back at the chapter notes or look online for the low-level instructions on how to set up routing.
 
