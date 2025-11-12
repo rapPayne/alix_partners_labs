@@ -8,7 +8,7 @@ In this lab, we'll add some flow control to our JSX code using conditional rende
 - In your Landing.tsx file, create a variable called "films" and set it equal to the array you just copied. This will allow us to work with some temporary data.
 - Do the same with the film details. Open http://localhost:3008/api/films/1 and copy the JSON object you see there. In FilmDetails.tsx, create a variable called "film" and set it equal to that object.
 - Once again, do the same with the theater data. Open http://localhost:3008/api/theaters/1 and copy the JSON object you see there. In PickSeats.tsx, create a variable called "theater" and set it equal to that object.
-- Last one. Do the same with the user data. Open http://localhost:3008/api/user/1 and copy the JSON object you see there. In App.tsx, create a variable called "user" and set it equal to that object.
+- Last one. Do the same with the user data. Open http://localhost:3008/api/users/1 and copy the JSON object you see there. In App.tsx, create a variable called "user" and set it equal to that object.
 
 ## App.tsx
 - In App.tsx, you're rendering the `<nav>`. In that `<nav>`, add a variable called "user". If user is truthy, your nav should show "cart", "logout", and "account". If user does not exist, it should show "login" and "register".
