@@ -9,7 +9,7 @@ Use a consistent color scheme and typography throughout the app. We want a cohes
 As a reminder, here are the page-level components you have so far and a screen shot of each.
 
 ## Landing
-![Landing Page](../assets/landingPage.png)
+![Landing Page](../assets/LandingPage.png)
 
 ## Film Details
 ![Film Details Page](../assets/FilmDetails.png)
