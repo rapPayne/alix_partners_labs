@@ -1,0 +1,29 @@
+:root {
+  --tw-bg-opacity: 1;
+  --dark1: black;
+  --dark2: rgb(29 136 55);
+  --dark3: rgb(29 99 33);
+  --dark4: rgb(69 69 69/var(--tw-bg-opacity));
+  --lite1: white;
+  --lite2: #e5e7eb;
+  --lite3: #6689a1ff;
+
+  color: var(--dark1);
+  background-color: var(--lite1);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  /* root layout */
+  margin: 0;
+}
+
+/* Standard forms */
+form {
+  input {
+    width: minmax(80vw, 100vw);
+    background-color: var(--lite2);
+  }
+}
