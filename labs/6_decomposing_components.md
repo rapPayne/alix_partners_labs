@@ -11,8 +11,7 @@ We'll start off with an easy one.
 That `<section>` in LandingPage.tsx where you're displaying the days of the week should be broken into its own component called DatePicker. 
 - Create DatePicker.tsx
 - In it,  display the days of the week as you did before.
-- When the user selects a day, set the showing date selected by the user into the global data store (hint: use Zustand)
-- Note that when done right, this should cause the ShowingTimes instances to re-render because they use the selected date. Make sure you test this.
+- When the user selects a day, console.log the selected date for now.
 - Place an instance of `<DatePicker />` in `<LandingPage />` where the old code was. Put an instance in `<FilmDetailsPage />` as well.
 
 ## Decomposing FilmBrief
