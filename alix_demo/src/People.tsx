@@ -1,22 +1,21 @@
 import { useEffect, useState } from 'react';
 import './People.css'
 import { PersonCard } from './PersonCard';
-
+import { Person } from './types/Person';
 
 export const People = () => {
   const [people, setPeople] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3008/users")
       .then(res => res.json())
-      .then(people => people.map(p => ({ ...p, random: Math.random() })))
       .then(people => setPeople(people))
   }, [])
 
   return (
     <article className='People'>
-      <h2>All teh cool people</h2>
+      <h2>All the cool people</h2>
       <section>
-        {people.map((person) => <PersonCard person={person} foo={1} bar={true} key={person.id} />)}
+        {people.map((person: Person) => <PersonCard person={person} key={person.id} />)}
       </section>
     </article>
   )

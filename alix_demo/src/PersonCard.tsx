@@ -1,7 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import './PersonCard.css';
+import { Person } from './types/Person';
 
-export const PersonCard = ({ person }) => {
+interface Props {
+  person: Person
+}
+export const PersonCard = ({ person }: Props) => {
   const navigate = useNavigate()
   return (
     <section className="PersonCard" onClick={() => navigate(`/people/${person.id}`)}>
